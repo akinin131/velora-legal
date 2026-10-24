@@ -1,0 +1,13 @@
+
+:root{color-scheme:dark;--bg:#141410;--panel:#20201b;--ink:#eee8d5;--muted:#b9b9ac;--accent:#9bd6bf}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:2rem}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.75 system-ui,-apple-system,sans-serif}
+header,main,footer{max-width:900px;margin:auto;padding:26px 24px}header{border-bottom:1px solid #39392e}
+.brand{font-size:23px;font-weight:750;letter-spacing:.1em;color:var(--ink);text-decoration:none}
+.tag{float:right;font-size:14px;color:var(--muted)}a{color:var(--accent);text-underline-offset:4px}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:5px}h1{font-size:clamp(27px,5vw,43px);line-height:1.2;letter-spacing:-.025em}
+h2{font-size:23px;line-height:1.35;margin-top:2.3em}p{white-space:pre-line;overflow-wrap:anywhere}
+.meta,footer{color:var(--muted);font-size:14px}.notice{padding:18px;border:1px solid #a78349;border-radius:12px}
+nav{display:flex;flex-wrap:wrap;gap:12px 24px}section{margin-bottom:24px}.operator{padding:22px;background:var(--panel);border-radius:16px;margin-top:45px}
+.operator h2{margin-top:0}.links{display:grid;gap:14px;padding:0;list-style:none}.links a{display:block;padding:20px;background:var(--panel);border-radius:14px;text-decoration:none}
+footer{border-top:1px solid #39392e;margin-top:35px}small{display:block}@media(max-width:480px){header,main,footer{padding:20px}body{font-size:16px}.tag{float:none;display:block;margin-top:6px}}
